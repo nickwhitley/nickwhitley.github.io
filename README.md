@@ -1,1 +1,0 @@
-# nickwhitley.github.io
