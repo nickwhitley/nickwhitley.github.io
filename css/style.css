@@ -4,19 +4,31 @@ html, body {
 
 #profile-pic{
 	margin-bottom: 2;
+	margin-top: 20;
+	margin-left: 20;
+	margin-right: 15;
 	grid-area: "picture";
 }
 
-#main-header{
+#name-header{
 	font-size: 60;
 	margin-bottom: 2;
+	margin-left: 5;
 	grid-area: "name";
+	white-space: nowrap;
+}
+
+#socials-header{
+	white-space: nowrap;
+	margin-right: 1;
+	grid-area: "socials";
+
 }
 
 .grid-item-header{
 	grid-area: sidebar;
 	display: grid;
-	grid-template-columns: 0.10fr auto;
+	grid-template-columns: 1fr 4fr;
 	grid-template-areas: "picture name";
 }
 
